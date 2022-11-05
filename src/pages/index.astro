@@ -5,10 +5,19 @@
 		<meta name="viewport" content="width=device-width" />
 		<meta name="generator" content={Astro.generator} />
 		<title>Astro</title>
+		<link rel="preconnect" href="https://fonts.gstatic.com" />
+		<link
+		href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap"
+		rel="stylesheet"
+		/>
 	</head>
-	<body>
-		<h1>Astro</h1>
-		<p>FF7A00</p>
-		<p>E962FF</p>
+	<body class="bg-darky text-white overflow-hidden font-press-start">
+		<div class="relative">
+			<img class="absolute top-[-10vh] left-[-10rem] h-[120vh] opacity-5" src="/assets/pepega.png" alt="" />
+		</div>
+		<div class="h-[100vh] flex flex-col justify-center items-end pr-20">
+			<h1 class="text-7xl">Hi, I'm <span class="text-orangy">Peter.</span></h1>
+			<p class="mt-8 text-xl text-white/20">(what are you even supposed to write here?)</p>
+		</div>
 	</body>
 </html>
